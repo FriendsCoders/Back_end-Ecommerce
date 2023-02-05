@@ -39,7 +39,7 @@ mongoose.connect(process.env.CONNECTION_STRING,{
     useUnifiedTopology: true
 }) 
 .then(()=> console.log("connection à la base de donnée réussie"))
-.catch(()=>console.log("connection à la base donnée échouée "))
+.catch(()=>console.log("La connection à la base donnée à  échouée "))
 // app.get(`${api}/products` ,(req,res)=>{ 
     
 //     res.send("hello")
